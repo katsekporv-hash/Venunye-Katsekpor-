@@ -1,0 +1,28 @@
+.services-grid {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 0.8rem;
+}
+
+.service-card {
+	border: 1px solid var(--border-soft);
+	border-radius: 16px;
+	padding: 1rem;
+	background: var(--surface-2);
+}
+
+.service-card h3 {
+	margin: 0;
+	font-size: 1.06rem;
+}
+
+.service-card p {
+	margin: 0.7rem 0 0;
+	color: var(--text-soft);
+}
+
+@media (max-width: 950px) {
+	.services-grid {
+		grid-template-columns: 1fr;
+	}
+}

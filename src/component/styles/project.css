@@ -1,0 +1,124 @@
+.project-controls {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.project-controls input,
+.project-controls select {
+  width: 100%;
+  height: 2.6rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-soft);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0 0.75rem;
+}
+
+.filter-group {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.filter-group button {
+  border: 1px solid var(--border-soft);
+  background: var(--surface);
+  color: var(--text-soft);
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.filter-group button.active {
+  color: var(--accent-contrast);
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  border-color: transparent;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.9rem;
+}
+
+.project-card {
+  border: 1px solid var(--border-soft);
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.project-image {
+  width: 100%;
+  height: 158px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.content {
+  padding: 0.9rem;
+}
+
+.project-title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.project-description {
+  margin: 0.6rem 0 0;
+  color: var(--text-soft);
+}
+
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.75rem;
+}
+
+.pill {
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent) 18%, var(--surface));
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.project-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.8rem;
+}
+
+#next,
+.ghost-link {
+  border-radius: 10px;
+  padding: 0.45rem 0.75rem;
+  font-weight: 700;
+  font-size: 0.83rem;
+}
+
+#next {
+  color: var(--accent-contrast);
+  background: var(--accent);
+}
+
+.ghost-link {
+  color: var(--text);
+  border: 1px solid var(--border-soft);
+}
+
+.empty-state {
+  color: var(--text-soft);
+}
+
+@media (max-width: 680px) {
+  .project-controls {
+    grid-template-columns: 1fr;
+  }
+}

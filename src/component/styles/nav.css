@@ -1,0 +1,162 @@
+.site-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 40;
+	backdrop-filter: blur(8px);
+	background: var(--header-bg);
+	border-bottom: 1px solid var(--border-soft);
+}
+
+.navMenu {
+	width: min(1100px, 92%);
+	margin: 0 auto;
+	min-height: 4.6rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+#name {
+	font-size: 1.25rem;
+	font-weight: 800;
+	letter-spacing: 0.01em;
+}
+
+#name span {
+	color: var(--accent);
+	margin-left: 0.3rem;
+}
+
+.menu-toggle {
+	display: none;
+	width: 2.6rem;
+	height: 2.3rem;
+	border: 1px solid var(--border-soft);
+	border-radius: 10px;
+	background: var(--surface);
+	cursor: pointer;
+	padding: 0.4rem;
+}
+
+.menu-toggle span {
+	display: block;
+	height: 2px;
+	width: 100%;
+	background: var(--text);
+	margin: 0.25rem 0;
+}
+
+.navLinks {
+	display: flex;
+	align-items: center;
+	gap: 0.8rem;
+}
+
+.navLinks a {
+	color: var(--text-soft);
+	font-weight: 600;
+	font-size: 0.95rem;
+	transition: color 0.2s ease;
+}
+
+.navLinks a:hover,
+.navLinks a.active {
+	color: var(--accent);
+}
+
+#hire {
+	padding: 0.52rem 0.9rem;
+	border-radius: 10px;
+	color: var(--accent-contrast);
+	background: linear-gradient(120deg, var(--accent), var(--accent-2));
+	font-weight: 700;
+	font-size: 0.92rem;
+}
+
+.theme-tools {
+	display: flex;
+	align-items: center;
+	gap: 0.45rem;
+	margin-left: 0.3rem;
+}
+
+.mode-toggle {
+	border: 1px solid var(--border-soft);
+	background: var(--surface);
+	color: var(--text);
+	border-radius: 999px;
+	padding: 0.34rem 0.7rem;
+	font-size: 0.77rem;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.accent-palette {
+	display: flex;
+	gap: 0.35rem;
+}
+
+.accent-dot {
+	width: 1rem;
+	height: 1rem;
+	border: 0;
+	border-radius: 999px;
+	cursor: pointer;
+	outline: 2px solid transparent;
+}
+
+.accent-dot.active {
+	outline-color: var(--text);
+}
+
+.accent-dot[data-accent-choice='blue'] {
+	background: #1f6feb;
+}
+
+.accent-dot[data-accent-choice='green'] {
+	background: #178f5f;
+}
+
+.accent-dot[data-accent-choice='orange'] {
+	background: #cb5c18;
+}
+
+.accent-dot[data-accent-choice='pink'] {
+	background: #cc3f7a;
+}
+
+@media (max-width: 980px) {
+	.navLinks {
+		position: absolute;
+		top: 4.6rem;
+		left: 0;
+		width: 100%;
+		display: grid;
+		gap: 0.5rem;
+		padding: 0.9rem 4%;
+		background: var(--header-bg);
+		border-bottom: 1px solid var(--border-soft);
+		transform-origin: top;
+		transform: scaleY(0);
+		opacity: 0;
+		pointer-events: none;
+		transition: 0.2s ease;
+	}
+
+	.navLinks.open {
+		transform: scaleY(1);
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	.menu-toggle {
+		display: block;
+	}
+
+	#hire {
+		display: none;
+	}
+}

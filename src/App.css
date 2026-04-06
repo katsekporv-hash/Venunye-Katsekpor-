@@ -1,0 +1,109 @@
+
+:root {
+	--bg: #f8f7f2;
+	--bg-soft: #efece2;
+	--surface: #ffffff;
+	--surface-2: #f5f8ff;
+	--text: #1e232f;
+	--text-soft: #4c566a;
+	--border-soft: #d8dfec;
+	--header-bg: rgba(248, 247, 242, 0.86);
+	--shadow: 0 18px 45px rgba(12, 26, 56, 0.08);
+	--accent: #1f6feb;
+	--accent-2: #1158d8;
+	--accent-contrast: #ffffff;
+}
+
+:root[data-theme='dark'] {
+	--bg: #121826;
+	--bg-soft: #1a2336;
+	--surface: #1b2537;
+	--surface-2: #212d42;
+	--text: #ecf0fa;
+	--text-soft: #b8c1d8;
+	--border-soft: #334660;
+	--header-bg: rgba(18, 24, 38, 0.88);
+	--shadow: 0 22px 55px rgba(0, 0, 0, 0.34);
+}
+
+:root[data-accent='blue'] {
+	--accent: #1f6feb;
+	--accent-2: #1158d8;
+}
+
+:root[data-accent='green'] {
+	--accent: #178f5f;
+	--accent-2: #0d744a;
+}
+
+:root[data-accent='orange'] {
+	--accent: #cb5c18;
+	--accent-2: #a34611;
+}
+
+:root[data-accent='pink'] {
+	--accent: #cc3f7a;
+	--accent-2: #a81f5b;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: var(--text);
+	background:
+		radial-gradient(circle at 12% 9%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 28%),
+		radial-gradient(circle at 84% 0%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 28%),
+		linear-gradient(180deg, var(--bg), var(--bg-soft));
+	transition: background 0.25s ease, color 0.25s ease;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.app-shell {
+	position: relative;
+	isolation: isolate;
+}
+
+main {
+	width: min(1100px, 92%);
+	margin: 0 auto;
+	padding-top: 6.2rem;
+}
+
+.section {
+	margin-top: 2.4rem;
+	padding: 1.4rem;
+	border-radius: 22px;
+	background: color-mix(in srgb, var(--surface) 90%, transparent);
+	border: 1px solid var(--border-soft);
+	box-shadow: var(--shadow);
+}
+
+.section h2 {
+	margin: 0.2rem 0 1rem;
+	font-size: clamp(1.5rem, 2.2vw, 2rem);
+}
+
+.eyebrow {
+	margin: 0;
+	letter-spacing: 0.11em;
+	text-transform: uppercase;
+	font-size: 0.76rem;
+	color: var(--accent);
+	font-weight: 700;
+}
+
+@media (max-width: 820px) {
+	.section {
+		padding: 1rem;
+		border-radius: 16px;
+	}
+
+	main {
+		width: min(1100px, 95%);
+		padding-top: 5.4rem;
+	}
+}
+	

@@ -1,0 +1,60 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.status-line {
+  grid-column: 1 / -1;
+  min-height: 1.5rem;
+  font-size: 0.92rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.42rem;
+}
+
+.form-field label {
+  font-weight: 600;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  border: 1px solid var(--border-soft);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.64rem 0.72rem;
+  outline: none;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+.submit-line {
+  grid-column: 1 / -1;
+}
+
+.submit-line button {
+  border: 0;
+  border-radius: 10px;
+  padding: 0.65rem 1rem;
+  font-weight: 700;
+  color: var(--accent-contrast);
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}
