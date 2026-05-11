@@ -9,10 +9,10 @@ const Intro = () => {
 			<div className="intro-copy">
 				<p className="eyebrow">Portfolio 2026</p>
 				<h1 id="fullName">Elvin Owusu</h1>
-				<p id="spec">Full Stack Developer</p>
+				<p id="spec">Cybersecurity &amp; Full-Stack Developer</p>
 				<p id="abt">
-					I design and build performant web products with clean UX, scalable
-					architecture, and thoughtful engineering decisions.
+					I design secure, performant web products and sharpen offensive security
+					skills through hands-on labs, CTFs, and self-driven learning.
 				</p>
 
 				<div className="intro-actions">

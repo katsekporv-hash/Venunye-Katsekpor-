@@ -3,27 +3,27 @@ import './styles/services.css';
 
 const services = [
   {
-    title: 'Full Stack Development',
+    title: 'Cybersecurity (Offensive)',
     detail:
-      'From robust APIs to polished interfaces, I build complete products that scale.',
+      'Hands-on lab work focused on enumeration, web exploitation, and container escape paths.',
   },
   {
-    title: 'UI Engineering',
+    title: 'Full-Stack Development',
     detail:
-      'Design-driven components with responsive layouts, smooth motion, and accessible markup.',
+      'React + Node/Express applications with secure authentication, data layers, and cloud deployment.',
   },
   {
-    title: 'Performance Optimization',
+    title: 'Secure Product Delivery',
     detail:
-      'I improve load times, rendering speed, and maintainability for long-term product health.',
+      'Practical product engineering with an emphasis on reliability, performance, and security.',
   },
 ];
 
 const Services = () => {
   return (
     <section className="section services" id="services">
-      <p className="eyebrow">What I Do</p>
-      <h2>Services</h2>
+      <p className="eyebrow">Primary Specialties</p>
+      <h2>Cybersecurity &amp; Full-Stack</h2>
       <div className="services-grid">
         {services.map((item) => (
           <article className="service-card" key={item.title}>

@@ -1,96 +1,26 @@
 [
 	{
-		"name": "E-commerce platform",
-		"src": "/projectimg/Ecommerce.jpg",
-		"description": "a full-featured online store built with React and Node.js"
-	},
-	{
-		"name": "Dashboard",
+		"name": "HGBMI",
 		"src": "/projectimg/dash.jpg",
-		"description": "an analytical dashboard component built with React and Node.js"
+		"description": "Church attendance system built with React + Express.js and Neon PostgreSQL featuring QR-code scanning, JWT role-based auth, and Resend email OTP. Deployed on Vercel + Render.",
+		"tags": ["Full Stack", "React", "Express", "PostgreSQL", "Auth"]
 	},
 	{
-		"name": "Banking  app",
-		"src": "/projectimg/bank.jpg",
-		"description": "a full-featured banking simulation built with C++"
-	},
-	{
-		"name": "Food hub",
-		"src": "/projectimg/foodhub.jpg",
-		"description": "a full-featured online restaurant built with HTML, CSS and JS"
-	},
-	{
-		"name": "Quiz Master",
+		"name": "Edifix",
 		"src": "/projectimg/quiz.jpg",
-		"description": "an online quiz app with a timer and instant grading built using React"
+		"description": "Stage-based web development learning platform built with React, Node.js/Express, and MySQL.",
+		"tags": ["Full Stack", "React", "Express", "MySQL"]
 	},
 	{
-		"name": "Portfolio Showcase",
-		"src": " /projectimg/port.jpg",
-		"description": "a personal portfolio website built with React and Tailwind CSS"
-	},
-	{
-		"name": "Chat App",
-		"src": "/projectimg/chat.jpg",
-		"description": "a real-time messaging application built with Socket.io and React"
-	},
-	{
-		"name": "Expense Tracker",
-		"src": "/projectimg/tracker.jpg",
-		"description": "a budget management app built with React and Node.js"
-	},
-	{
-		"name": "AI Article Summarizer",
-		"src": "/projectimg/ai.jpg",
-		"description": "a tool that summarizes articles using GPT APIs, built with React"
-	},
-	{
-		"name": "Crypto Price Tracker",
-		"src": "/projectimg/wallet.jpg",
-		"description": "a live cryptocurrency price monitoring app built with React and an external API"
-	},
-	{
-		"name": "To-do CLI App",
-		"src": "/projectimg/todo.jpg",
-		"description": "a command-line to-do list manager written in C++"
-	},
-	{
-		"name": "Weather Finder",
-		"src": "/projectimg/Weather app.jpg",
-		"description": "a weather forecasting app using the OpenWeatherMap API and React"
-	},
-	{
-		"name": "Note Keeper",
-		"src": "/projectimg/note.jpg",
-		"description": "a web-based note-taking app with markdown support built with React"
-	},
-	{
-		"name": "Fitness Tracker",
+		"name": "KidneyCheck",
 		"src": "/projectimg/fit.jpg",
-		"description": "a health and fitness tracking web app built with MERN stack"
+		"description": "Kidney disease risk screening MVP in React with a quiz, referral letter generation, and BP trend dashboard.",
+		"tags": ["React", "Healthcare", "Dashboard"]
 	},
 	{
-		"name": "Online Voting System",
-		"src": "/projectimg/vote.jpg",
-		"description": "a secure online voting app with authentication, built with Node.js and MongoDB",
-		"tags": ["Cybersecurity", "Authentication", "Web"]
-	},
-	{
-		"name": "Threat Detection Dashboard",
-		"src": "/projectimg/dash.jpg",
-		"description": "a SIEM-style threat monitoring dashboard with alert triage and incident timelines",
-		"tags": ["Cybersecurity", "Monitoring", "Dashboard"]
-	},
-	{
-		"name": "Phishing Simulation Lab",
+		"name": "Codex",
 		"src": "/projectimg/chat.jpg",
-		"description": "a safe phishing campaign simulator with templates, tracking, and training reports",
-		"tags": ["Cybersecurity", "Awareness"]
-	},
-	{
-		"name": "Vulnerability Scanner CLI",
-		"src": "/projectimg/note.jpg",
-		"description": "a command-line scanner that checks packages and headers for known CVEs",
-		"tags": ["Cybersecurity", "CLI"]
+		"description": "Collaborative full-stack product under the Codex Tech Hub org built with MongoDB/Mongoose.",
+		"tags": ["Full Stack", "MongoDB", "Collaboration"]
 	}
 ]

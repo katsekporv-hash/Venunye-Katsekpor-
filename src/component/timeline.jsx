@@ -3,24 +3,24 @@ import './styles/timeline.css';
 
 const journey = [
   {
-    year: '2022',
-    title: 'Started Full Stack Journey',
-    detail: 'Focused on JavaScript fundamentals, UI engineering, and problem-solving patterns.',
-  },
-  {
     year: '2023',
-    title: 'Built Product Projects',
-    detail: 'Developed dashboards, ecommerce features, and API integrations for practical workflows.',
+    title: 'Full-Stack Foundations',
+    detail: 'Strengthened React UI delivery, API patterns, and reliable data workflows.',
   },
   {
     year: '2024',
-    title: 'Shipped Client Work',
-    detail: 'Delivered responsive interfaces and backend services with performance and reliability in mind.',
+    title: 'Product Delivery',
+    detail: 'Shipped end-to-end features with secure authentication, deployments, and QA routines.',
   },
   {
     year: '2025',
-    title: 'Expanded Engineering Scope',
-    detail: 'Improved architecture decisions, automated deployment steps, and frontend quality standards.',
+    title: 'Cybersecurity Track (Oct 2025)',
+    detail: 'Started offensive security labs with a focus on web exploitation and escalation.',
+  },
+  {
+    year: '2026',
+    title: 'CTF & Security Tooling',
+    detail: 'Hands-on labs in SSRF, SSTI, Docker escape paths, and Active Directory concepts.',
   },
 ];
 
