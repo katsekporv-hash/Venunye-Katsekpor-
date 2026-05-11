@@ -73,5 +73,23 @@
 		"name": "Online Voting System",
 		"src": "/projectimg/vote.jpg",
 		"description": "a secure online voting app with authentication, built with Node.js and MongoDB"
+	},
+	{
+		"name": "Threat Detection Dashboard",
+		"src": "/projectimg/dash.jpg",
+		"description": "a SIEM-style threat monitoring dashboard with alert triage and incident timelines",
+		"tags": ["Cybersecurity", "Monitoring", "Dashboard"]
+	},
+	{
+		"name": "Phishing Simulation Lab",
+		"src": "/projectimg/chat.jpg",
+		"description": "a safe phishing campaign simulator with templates, tracking, and training reports",
+		"tags": ["Cybersecurity", "Awareness"]
+	},
+	{
+		"name": "Vulnerability Scanner CLI",
+		"src": "/projectimg/note.jpg",
+		"description": "a command-line scanner that checks packages and headers for known CVEs",
+		"tags": ["Cybersecurity", "CLI"]
 	}
 ]
