@@ -72,7 +72,8 @@
 	{
 		"name": "Online Voting System",
 		"src": "/projectimg/vote.jpg",
-		"description": "a secure online voting app with authentication, built with Node.js and MongoDB"
+		"description": "a secure online voting app with authentication, built with Node.js and MongoDB",
+		"tags": ["Cybersecurity", "Authentication", "Web"]
 	},
 	{
 		"name": "Threat Detection Dashboard",
