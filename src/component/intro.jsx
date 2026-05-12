@@ -8,7 +8,7 @@ const Intro = () => {
 		<section className="section intro" id="home">
 			<div className="intro-copy">
 				<p className="eyebrow">Portfolio 2026</p>
-				<h1 id="fullName">Elvin Owusu</h1>
+				<h1 id="fullName">Venunye Katsekpor</h1>
 				<p id="spec">Cybersecurity &amp; Full-Stack Developer</p>
 				<p id="abt">
 					I design secure, performant web products and sharpen offensive security
