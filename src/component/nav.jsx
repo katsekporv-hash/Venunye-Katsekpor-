@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./styles/nav.css";
 import ThemeSwitcher from "./themeswitcher.jsx";
-const fName = "Elvin";
-const lName = "Owusu";
+const fName = "Venunye";
+const lName = "Katsekpor";
 
 const links = [
 	{ label: "About", href: "#about" },

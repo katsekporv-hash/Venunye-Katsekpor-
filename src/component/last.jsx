@@ -34,7 +34,7 @@ const Last = () => {
           <img src={snapimg} width={20} height={20} alt="GitHub" />
         </a>
       </div>
-      <p id="laststraw">©{new Date().getFullYear()} Elvin Sly Owusu. All rights reserved.</p>
+      <p id="laststraw">©{new Date().getFullYear()} Venunye Katsekpor. All rights reserved.</p>
     </footer>
   );
 };

@@ -31,7 +31,7 @@ const Intro = () => {
 					src={imgProfile}
 					width={280}
 					height={280}
-					alt="Portrait of Elvin Owusu"
+					alt="Portrait of Venunye Katsekpor"
 				/>
 			</div>
 		</section>

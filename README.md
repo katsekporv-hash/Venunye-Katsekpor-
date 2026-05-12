@@ -1,4 +1,4 @@
-# Bytebandit Portfolio
+# Venunye Katsekpor Portfolio
 
 A modern personal portfolio built with React and Vite.
 
@@ -127,4 +127,4 @@ Deploy the generated dist folder to your preferred static host (for example Netl
 
 ## Author
 
-Elvin Owusu
+Venunye Katsekpor
