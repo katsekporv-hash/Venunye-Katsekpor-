@@ -8,19 +8,7 @@ const About = () => {
 			<p className="eyebrow">Who I Am</p>
 			<h2 className="about-title">About Me</h2>
 			<div className="data">
-				<article className="about-card">
-					<h3>Full-Stack Development</h3>
-					<p>
-						I build end-to-end products with React, Node/Express, and SQL/NoSQL data
-						stores, focusing on reliable delivery and secure-by-design interfaces.
-					</p>
-					<p className="muted">
-						Recent builds include HGBMI (QR attendance + JWT/OTP), Edifix (stage-based
-						learning), KidneyCheck (health screening MVP), and Codex (collaborative
-						full-stack delivery).
-					</p>
-				</article>
-				<article className="about-card">
+				<article className="about-card about-card--primary">
 					<h3>Cybersecurity (Oct 2025 - Present)</h3>
 					<p>Actively practicing offensive security through hands-on CTF challenges and labs:</p>
 					<ul>
@@ -40,6 +28,18 @@ const About = () => {
 							<strong>Docker Escape</strong> — escaped a container via an exposed Docker socket.
 						</li>
 					</ul>
+				</article>
+				<article className="about-card">
+					<h3>Full-Stack Development</h3>
+					<p>
+						I build end-to-end products with React, Node/Express, and SQL/NoSQL data
+						stores, focusing on reliable delivery and secure-by-design interfaces.
+					</p>
+					<p className="muted">
+						Recent builds include HGBMI (QR attendance + JWT/OTP), Edifix (stage-based
+						learning), KidneyCheck (health screening MVP), and Codex (collaborative
+						full-stack delivery).
+					</p>
 				</article>
 				<article className="about-card">
 					<h3>Tools &amp; Concepts</h3>
