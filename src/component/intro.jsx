@@ -27,7 +27,7 @@ const Intro = () => {
 			<div className="profile_picture">
 				<img
 					id="profilepic"
-					src="https://drive.google.com/uc?id=1is_Gyul3fxudckJOuS6pyc1lFirnJIvz&export=download"
+					src="https://drive.google.com/uc?id=1is_Gyul3fxudckJOuS6pyc1lFirnJIvz"
 					width={280}
 					height={280}
 					alt="Portrait of Venunye Katsekpor"
