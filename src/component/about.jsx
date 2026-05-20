@@ -9,7 +9,7 @@ const About = () => {
 			<div className="about-intro">
 				<div className="about-photo-wrapper">
 					<img 
-						src="/src/assets/profile-photo.jpg" 
+						src="https://drive.google.com/uc?id=1is_Gyul3fxudckJOuS6pyc1lFirnJIvz&export=download" 
 						alt="Venunye Katsekpor - Professional Headshot" 
 						className="about-photo"
 					/>
