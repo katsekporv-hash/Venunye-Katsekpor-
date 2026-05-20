@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/about.css';
-
+import pImg from '../../vk.jpg'
 const About = () => {
 	return (
 		<section className="section about" id="about">
@@ -9,7 +9,7 @@ const About = () => {
 			<div className="about-intro">
 				<div className="about-photo-wrapper">
 					<img 
-						src="https://drive.google.com/file/d/1is_Gyul3fxudckJOuS6pyc1lFirnJIvz/preview" 
+						src={pImg}
 						alt="Venunye Katsekpor - Professional Headshot" 
 						className="about-photo"
 					/>
