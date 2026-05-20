@@ -1,5 +1,6 @@
 import React from "react";
 import './styles/intro.css';
+import pImg from '../../vk.jpg'
 import download from '../assets/download.svg';
 import cvFile from '../assets/elvin.txt';
 const Intro = () => {
@@ -27,7 +28,7 @@ const Intro = () => {
 			<div className="profile_picture">
 				<img
 					id="profilepic"
-					src="https://drive.google.com/uc?export=view&id=1is_Gyul3fxudckJOuS6pyc1lFirnJIvz"
+					src={pImg}
 					width={280}
 					height={280}
 					alt="Portrait of Venunye Katsekpor"
